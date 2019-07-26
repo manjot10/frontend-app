@@ -13,7 +13,7 @@ class ForgotPassword extends Component {
             <div className="form-group">
               <input type="email" className="form-control" id="email" placeholder="Email"></input>
             </div>
-            <div >
+            <div >{/*Bootstrap button style = reset-btn*/}
 				<Button name="signIn" className="reset-btn">Resset Password</Button>
             </div>
           </form>

@@ -22,7 +22,7 @@ class SignUp extends Component {
                         <div className="form-group">
                             <input type="text" class="form-control" id="referralCode" placeholder="Referral code"></input>
                         </div>
-                        <div >
+                        <div >{/*Bootstrap button style = signin-btn*/}
 							<Button name="signIn" className="signin-btn">Sign Up</Button>
                         </div>
                     </form>

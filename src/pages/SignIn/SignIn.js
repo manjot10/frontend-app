@@ -18,7 +18,7 @@ class SignIn extends Component {
 					<div className="form-group">
 						<input type="password" className="form-control" id="password" placeholder="Password" ></input>
 					</div>
-					<div>
+					<div>{/*Bootstrap button style = signin-btn*/}
 						<Button name="signIn" className="signin-btn">Login</Button>
 					</div>
 				</form>
